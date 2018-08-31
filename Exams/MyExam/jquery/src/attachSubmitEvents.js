@@ -60,7 +60,7 @@ function attachButtonEvents() {
             showError('The title length must not exceed 33 characters!');
         } else if(description === ""){
             showError('Description is required!');
-        } else if(description.length >= 30 && description.length < 450){
+        } else if(description.length < 30 && description.length >= 450){
             showError('The description length must not exceed 450 characters and should be at least 30!');
         } else if(brand === ""){
             showError('Brand is required!');
@@ -110,7 +110,7 @@ function attachButtonEvents() {
             showError('The title length must not exceed 33 characters!');
         } else if(description === ""){
             showError('Description is required!');
-        } else if(description.length >= 30 && description.length < 450){
+        } else if(description.length < 30 && description.length >= 450){
             showError('The description length must not exceed 450 characters and should be at least 30!');
         } else if(brand === ""){
             showError('Brand is required!');
